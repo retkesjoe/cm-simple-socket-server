@@ -1,0 +1,5 @@
+Improvement ideas:
+    ☐ Create different chat rooms.
+    ☐ Handling chat rooms, users and the related messages independently for each rooms.
+    ☐ Send welcome message when a user joins a chat.
+    ☐ Implement Redis connector for message storing.

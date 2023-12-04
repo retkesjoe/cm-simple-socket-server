@@ -1,14 +1,14 @@
 {
-  "name": "authentic-gaming-socket-server",
-  "version": "0.1.0",
-  "private": true,
-  "repository": "git@github.com:retkesjoe/authentic-gaming-socket-server.git",
-  "dependencies": {
-    "express": "^4.17.1",
-    "http": "0.0.1-security",
-    "socket.io": "^4.4.0"
-  },
-  "scripts": {
-    "start": "node src/index.js"
-  }
+    "name": "cm-simple-socket-server",
+    "version": "0.1.0",
+    "private": true,
+    "repository": "git@github.com:retkesjoe/cm-simple-socket-server.git",
+    "dependencies": {
+        "express": "^4.17.1",
+        "http": "0.0.1-security",
+        "socket.io": "^4.4.0"
+    },
+    "scripts": {
+        "start": "node src/index.js"
+    }
 }

@@ -11,6 +11,9 @@ const io = require("socket.io")(server, {
 
 io.on("connection", (socket) => {
     const response = new Date();
+    socket.on("connect", () => {
+        console.log("user connected:");
+    });
     socket.on("chat message", (data) => {
         io.emit("chat message", data);
     });
